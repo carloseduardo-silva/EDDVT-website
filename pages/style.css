@@ -35,7 +35,6 @@ div#title{
 h1{
     font-size: 36px;
     text-align: center;
-    padding-top: 0em;
     display: inline;
     margin-left: 1.2em;
 }
@@ -55,7 +54,9 @@ div#menubtn:hover{
     margin: 10px 15px;
     gap: 2em;
     width: 12em;
+    height: 10em;
     background-color: rgba(228, 228, 228, 0.329);
+    
 }
 
 div#main{
@@ -64,9 +65,15 @@ div#main{
     justify-content: center;
     margin: 10px 40px;
     gap: 3.7em;
+  
     
 
 }
+div#pre-eucariotos{
+  
+}
+
+
 
 h2{
     font-size: 36px;
@@ -95,13 +102,14 @@ a{
     font-size: 25px;
     margin: 5px 5px 5px 15px;
     text-decoration: none;
-
+    border-radius: 5px;
    
 }
 
 a:hover{
     transition: 200ms;
-    border-right: 4px solid black ;
+    border-right: 3px solid  rgb(50, 50, 167) ;
+
 }
 
 
@@ -130,7 +138,7 @@ div#B06{
 
 
 @media(min-width: 800px){
-    nav#menu{
+    div#menu{
         display: block;
         text-align: center; 
         margin: 30px 0px 0px 0px; 
@@ -177,4 +185,24 @@ div#B06{
     div#main{
         margin: 20px, 22vw;
     }
+}
+
+@media(max-width: 450px) {
+    h1{
+        font-size: 30px;
+        
+    }
+    div#title{
+        padding-top: 1.4em;
+        height: 70px;
+
+    }
+    div#menubtn{
+        padding-top: 0.5em;
+    }
+    .material-symbols-outlined{
+        font-size: 32px;
+    }
+
+
 }
