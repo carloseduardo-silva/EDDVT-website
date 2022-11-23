@@ -51,6 +51,7 @@ div#menubtn:hover{
 
 div#menu{
     margin:20px 0px 0px 0px ;
+    
 }
 
 .open{
@@ -105,8 +106,9 @@ a{
     margin: 5px 5px 5px 15px;
     text-decoration: none;
     border-radius: 5px;
-    border: 1px solid  rgba(50, 50, 167, 0.774);
+    border: 1px solid  rgba(50, 51, 167, 0.774);
     padding: 10px;
+    color: rgba(47, 49, 165, 0.938) ;
    
 }
 
