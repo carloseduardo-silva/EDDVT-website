@@ -5,19 +5,16 @@
     padding: 0px;
 }
 
-header{
-    position: relative;
-
-}
 
 
 div#menubtn{
     
-    display: inline-block;
-    position: absolute;
-    left: 3%;
-    padding-top: 0.7em;
-    
+    display: block;
+    text-align: center;
+    padding-top: 0.65em;
+    color: rgb(54, 54, 167) ;
+    background-color:  rgba(245, 247, 245, 0.938);
+    padding-bottom: 0.55em;
 }
 .material-symbols-outlined{
     font-size: 36px;
@@ -26,42 +23,45 @@ div#menubtn{
 div#title{
     font-family: 'Kanit', sans-serif;
     background-color: rgb(54, 54, 167);
-    width: 100%;
-    height: 78px;
+    width: 100%;   
     color: white;
     text-align: center;
-    padding-top: 1em;
-    position: relative;
-    z-index: 0;
+    padding-top: 1.1em;
+    padding-bottom: 1.7em;
+   
 }
 
 h1{
     font-size: 36px;
     text-align: center;
     display: inline;
-    margin-left: 1.2em;
+    
 }
 
 div#menubtn:hover{
     cursor: pointer;
+    background-color:  rgba(238, 237, 238, 0.938);
+    border: 1px solid white;
+    
 }
 
 .hide{
     display: none;
 }
 
+div#menu{
+    margin:20px 0px 0px 0px ;
+}
 
 .open{
     display: flex;
     flex-direction: column;
-    padding-left: 4px;
-    gap: 2.3em;
-    width: 11em;
-    height: 16.25em;
+    text-align: center;
+    gap: 1em;
+    width: 100%;
     background-color: rgb(252, 252, 252);
-    position: absolute;
-    z-index: 1;
     border-radius: 4px;
+    padding-bottom: 1em;
     
 }
 
@@ -71,8 +71,6 @@ div#main{
     justify-content: center;
     margin: 10px 40px;
     gap: 3.7em;
-    position: relative;
-    z-index: 0;
 
 }
 
@@ -107,14 +105,15 @@ a{
     margin: 5px 5px 5px 15px;
     text-decoration: none;
     border-radius: 5px;
-    border-bottom: 1px solid  rgba(50, 50, 167, 0.774);
+    border: 1px solid  rgba(50, 50, 167, 0.774);
+    padding: 10px;
    
 }
 
 a:hover{
     transition: 200ms;
     border-right: 5px solid  rgb(50, 50, 167) ;
-    background-color: rgba(247, 246, 247, 0.897);
+    background-color: rgba(244, 246, 244, 0.897);
 
 }
 
@@ -201,7 +200,7 @@ div#B06{
     }
     div#title{
         padding-top: 1.4em;
-        height: 70px;
+        height: 42px;
 
     }
     div#menubtn{
