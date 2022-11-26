@@ -6,7 +6,15 @@
 }
 
 
-
+div#pre-eucariotos{
+    margin: 10px 0px;
+}
+div#origem{
+    margin: 10px 0px;
+}
+div#pos-eucariotos{
+    margin: 10px 0px;
+}
 div#menubtn{
     
     display: block;
@@ -70,7 +78,7 @@ div#main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 10px 40px;
+    margin: 15px 40px;
     gap: 3.7em;
 
 }
@@ -121,8 +129,44 @@ a:hover{
 }
 
 img{
-    width: 100px;
+    width: 240px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
+
+img.arvore{
+    width: 300px;
+
+}
+
+img.ladoesq{
+    display: block;
+    height: 180px;
+    width: 250px;
+    margin-top: 2em;
+    margin-bottom: 0px;
+}
+
+img.ladodireito{
+    height: 180px;
+    width: 250px;
+    margin-top: 0px;
+    margin-bottom: 2em;
+}
+
+img.HDVT{
+    width: 300px;
+    margin-top: 2.5em;
+    margin-bottom: 0.2em;
+}
+
+img.teoriaEndo{
+    width: 300px;
+}
+
 
 
 
@@ -157,11 +201,6 @@ div#B06{
         background-color: white;
         position: relative;
         
-       
-        
-      
-       
-        
          
     }
 
@@ -187,10 +226,63 @@ div#B06{
     }
 
    div#main{
-    margin: 20px 12vw;
+    margin: 32px 12vw;
    }
 
+   img.arvore{
+    width: 320px;
+    height: 520px;
 }
+
+   img.ladoesq{
+    display: inline;
+    height: 185px;
+    width: 270px;
+    left: 33%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    }
+
+img.ladodireito{
+    height: 185px;
+    width: 270px;
+    left: 33%;  
+    margin-top: 2em;
+    margin-bottom: 2em;
+    }
+
+img.teoriaEndo{
+    width: 420px;
+    }
+
+img.mitocondria{
+    width: 370px;
+    margin-top: 2.7em;
+    margin-bottom: 2.5em;
+    }
+
+    
+    img.cloroplasto{
+        width: 360px;
+        margin-top: 2.7em;
+        margin-bottom: 2.5em;
+        }
+    
+    div#pre-eucariotos{
+            margin: 12px 12px;
+        }
+
+    div#origem{
+            margin: 12px 12px;
+        }
+        
+    div#pos-eucariotos{
+            margin: 12px 12px;
+        }
+    
+}
+
+
 
 @media(min-width: 1400px) {
 
