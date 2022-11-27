@@ -102,6 +102,11 @@ h3{
 
 h4{
     font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    text-decoration: underline;
+    margin-top: 15px;
 }
 
 p{
@@ -110,7 +115,7 @@ p{
 
 
 
-a{
+a.menureal{
     font-size: 22px;
     margin: 5px 5px 5px 15px;
     text-decoration: none;
@@ -121,7 +126,7 @@ a{
    
 }
 
-a:hover{
+a.menureal:hover{
     transition: 200ms;
     border-right: 5px solid  rgb(50, 50, 167) ;
     background-color: rgba(244, 246, 244, 0.897);
@@ -167,27 +172,61 @@ img.teoriaEndo{
     width: 300px;
 }
 
-
-
-
-
-
 footer{
-    margin-top: 8em;
+    margin-top: 6em;
     background-color: rgb(54, 54, 167);
     width: 100%;
+    
     
 }
 
 p.footerp{
-    margin: 10px 0px;
+    margin: 25px 10px;
 }
 
-div#B06{
+a.normal{
+    color: rgb(187, 187, 187);
+    font-weight: 800;
+}
+
+
+div#Bibliografia{
     text-align: center;
     padding: 10px;
     color: white;
-    
+    font-size: 15px;
+    margin-top: 0.7em;
+}
+
+button.botao{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    background-color: rgb(54, 54, 167);
+    color:white;
+    text-decoration: none;
+    border: 1px solid white;
+    font-size: 17px;
+    margin-top: 1em;
+    padding: 8px;
+    border-radius: 5px;
+
+
+}
+button#botao-biblio.botao:hover{
+    transition: 300ms;
+    cursor: pointer;
+    background-color: rgba(167, 165, 165, 0.637);
+}
+
+.aberto{
+    display: block;
+}
+
+div#rodape{
+    background-color: rgb(54, 54, 167) ;
+    height: 145px;
+    padding: 0.08px;
 }
 
 
@@ -204,7 +243,7 @@ div#B06{
          
     }
 
-    a{
+    a.menureal{
         padding: 10px 24px;
         margin: 2px 1vw;
         text-decoration: none;
@@ -215,7 +254,7 @@ div#B06{
         
     }
 
-    a:hover{
+    a.menureal:hover{
         background-color: rgba(233, 233, 233, 0.411);
         transition: 150ms;
         border-bottom: 3px solid rgb(50, 50, 151) ;
@@ -262,25 +301,30 @@ img.mitocondria{
     }
 
     
-    img.cloroplasto{
+img.cloroplasto{
         width: 360px;
         margin-top: 2.7em;
         margin-bottom: 2.5em;
         }
     
-    div#pre-eucariotos{
+div#pre-eucariotos{
             margin: 12px 12px;
         }
 
-    div#origem{
+div#origem{
             margin: 12px 12px;
         }
         
-    div#pos-eucariotos{
+div#pos-eucariotos{
             margin: 12px 12px;
         }
     
+p.footerp{
+            margin: 25px 75px;
+            
+        }
 }
+
 
 
 
