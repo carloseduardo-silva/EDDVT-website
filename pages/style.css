@@ -232,6 +232,12 @@ div#rodape{
 
 
 @media(min-width: 800px){
+    p{
+        font-size: 21px;
+    }
+    h3{
+        font-size: 28px;
+    }
     div#menu{
         display: block;
         text-align: center; 
@@ -328,11 +334,39 @@ p.footerp{
 
 
 
-@media(min-width: 1400px) {
+@media(min-width: 1300px) {
 
     div#main{
         margin: 20px, 22vw;
     }
+
+    p{
+        font-size: 23px;
+    }
+    h3{
+        font-size: 30px;
+    }
+
+    img.ladoesq{
+        left:39%;
+    }
+    img.ladodireito{
+        left:39%;
+    }
+    img.arvore{
+        width: 420px;
+        height: 620px;
+    }
+
+    img.teoriaEndo{
+        width: 540px;
+        }
+
+    img.HDVT{
+        width: 420px;
+         
+        }
+
 }
 
 @media(max-width: 450px) {
